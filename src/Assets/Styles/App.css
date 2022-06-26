@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: rgb(10 37 51);
+  min-height: 100vh;
+  color: white;
+}
+
+.nav-tabs {
+  border: 1px solid rgb(37 61 73) !important;
+}
+
+.nav-tabs .nav-link {
+  color: rgb(222 227 227);
+}
+
+.nav-tabs .nav-link.active {
+  background-color: rgb(10 37 51) !important;
+  color: rgb(20, 157, 214) !important;
+}
+
+.accordion-item {
+  border: 1px solid rgb(37 61 73) !important;
+}
+
+.accordion-header button {
+  background-color: rgb(10 37 51) !important;
+  color: rgb(222 227 227);
+}
+.accordion-header button:focus {
+  outline: none !important;
+}
+
+.accordion-body {
+  background-color: rgb(10 37 51) !important;
+  color: rgb(222 227 227);
+}
+
+.borderGrey {
+  border: 1px solid rgb(37 61 73);
+}
+
+.accordion-button::after {
+  background: white;
+}
